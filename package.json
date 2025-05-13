@@ -16,6 +16,7 @@
     "Other"
   ],
   "activationEvents": [],
+  "icon": "resources/icon.png",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
