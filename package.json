@@ -1,5 +1,5 @@
 {
-  "name": "vscode-open-url",
+  "name": "open-url-under-cursor",
   "displayName": "Open URL Under Cursor",
   "description": "Open URL under cursor in the default browser",
   "version": "1.0.0",
