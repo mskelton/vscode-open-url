@@ -1,0 +1,42 @@
+{
+  "name": "vscode-open-url",
+  "displayName": "Open URL",
+  "description": "Open URL under cursor in the default browser",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskelton/vscode-open-url"
+  },
+  "license": "ISC",
+  "publisher": "mskelton",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "open-url.openUrlUnderCursor",
+        "title": "Open URL Under Cursor"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "fmt": "prettier --write \"src/**/*.ts\"",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/vscode": "^1.60.0",
+    "@vscode/vsce": "^3.3.2",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
