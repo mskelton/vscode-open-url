@@ -2,7 +2,7 @@
   "name": "open-url-under-cursor",
   "displayName": "Open URL Under Cursor",
   "description": "Open URL under cursor in the default browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/mskelton/vscode-open-url"
